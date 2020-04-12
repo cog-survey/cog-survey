@@ -33,7 +33,7 @@ if(surveyNumber === 0){
 
 
 
-window.survey = new Survey.Model(surveyJSON);
+window.survey = new Survey.Model(surveyJson);
 
 survey
     .onComplete
