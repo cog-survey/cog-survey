@@ -34,7 +34,7 @@ if(surveyNumber === 0){
 
 
 window.survey = new Survey.Model(surveyJson);
-
+survey.showQuestionNumbers = "off";
 survey
     .onComplete
     .add(function (result) {
