@@ -6,6 +6,19 @@ span {
     color:#333 !important;
 }
 
+.sv-boolean__label--disabled{
+    color: #999 !important;
+}
+
+
+h2{
+    font-size: 35px !important;
+}
+
+h5{
+    font-size: 22px !important;
+}
+
 th {
     text-align: center !important;
 }
