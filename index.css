@@ -6,17 +6,37 @@ span {
     color:#333 !important;
 }
 
+@media (min-width: 800px){
+    .seb {
+        width : 80% !important;
+    }
+}
+
+
+@media (max-width: 800px){
+    .seb {
+        width : 100% !important;
+    }
+}
+
 .sv-boolean__label--disabled{
     color: #999 !important;
 }
 
+p{
+    font-size: 23px !important;
+}
+
+span{
+    font-size : 20px !important;
+}
 
 h2{
-    font-size: 35px !important;
+    font-size: 40px !important;
 }
 
 h5{
-    font-size: 22px !important;
+    font-size: 40px !important;
 }
 
 th {
