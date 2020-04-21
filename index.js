@@ -16,7 +16,7 @@ var surveyJSON2 = {description:"<body>\n\n<h1> About the study </h1>\n<br><br>\n
 //validators:[{type:"email"}]
 //'6ff1f879-ae9c-4177-acb5-12fcb9778e21'
 
-const surveyNumber = Math.round(Math.random())
+const surveyNumber = Math.random() < 0.75 ? 1 : 0
 let surveyJson = '';
 let surveyId = '';
 
